@@ -1,0 +1,26 @@
+{
+  "name": "Rest-API",
+  "version": "1.0.0",
+  "description": "Creación de API Rest ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/",
+    "dev": "nodemon src/",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Ethan Buitrago",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "supertest": "^6.1.3"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "mocha": "^9.0.1",
+    "nodemon": "^2.0.7"
+  }
+}
